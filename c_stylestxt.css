@@ -1,0 +1,45 @@
+/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case Problem 1
+
+   ICI Text and Color Styles
+   Author: Eugene Khom 
+   Date: 04/02/2020
+
+   Filename:         c_styles.css
+   Supporting Files: none
+
+*/
+/* changing body background text colors */
+body{
+   background-color: black;
+   color: white;
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+/* changing h1 color and setting font */
+h1{
+   color: yellow;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 28px;
+   text-align: center;
+}
+/* changing h2 font */
+h2{
+   font-size: 24px;
+   kerning: 20px;
+   text-align: center;
+}
+/* Change keyword class color and font weight */
+.keyword{
+   color: yellow;
+   font-weight: normal;
+}
+/* Removing border from the map */
+map area{
+   outline: none;
+}
+/* centering footer */
+footer{
+   text-align: center;
+}
